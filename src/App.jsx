@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './components/Title'
+import Title from './components/Title'
 import GHSearch from './components/GHSearch'
 import { Container } from 'semantic-ui-react'
 
 const App = () => {
   return (
     <Container>
-      <section name="title">
-        <Header />
+      <section data-cy="title">
+        <Title />
       </section>
-      <section name="main">
+      <section data-cy="main">
         <GHSearch/>
       </section>
     </Container>
